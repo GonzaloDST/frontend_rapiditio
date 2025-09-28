@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API_URL = "http://34.224.190.194:8000/products"; // Cambia esto por tu endpoint real
+const API_URL = "http://lb-prod-55563764.us-east-1.elb.amazonaws.com:8000/products"; // Cambia esto por tu endpoint real
 
 function App() {
   const [orders, setOrders] = useState([]);
